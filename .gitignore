@@ -1,5 +1,8 @@
 # Class Files #
 *.class
 
+# java.html files #
+*.java.html
+
 # Video Lectures #
 *.mp4
