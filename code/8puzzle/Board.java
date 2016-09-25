@@ -139,14 +139,14 @@ public class Board {
      *
      * @return the hashCode of this n-puzzle board
      */
-    @Override
-    public int hashCode() {
-        StringBuffer s = new StringBuffer();
-        for (int i = 0; i < board.length; i++)
-            for (int j = 0; j < board.length; j++)
-                s.append(board[i][j]);
-        return s.hashCode();
-    }
+    //@Override
+    //public int hashCode() {
+        //StringBuffer s = new StringBuffer();
+        //for (int i = 0; i < board.length; i++)
+            //for (int j = 0; j < board.length; j++)
+                //s.append(board[i][j]);
+        //return s.hashCode();
+    //}
 
     /**
      * Returns the neighbors of this n-puzzle board.
